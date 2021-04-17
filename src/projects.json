@@ -1,0 +1,33 @@
+[
+  {
+    "id": "1",
+    "title": "Tesla clone",
+    "description": "Tesla clone 🚘 built with React, React-Router, Firebase for authentication, Redux for state management, and Material-UI.",
+    "github": "https://github.com/alimehdiofficial/tesla-clone",
+    "live": "https://tesla-clone-57a26.web.app/",
+    "techStack": ["React", "Redux", "Firebase", "Material-UI"]
+  },
+  {
+    "id": "2",
+    "title": "Starbucks Redesign",
+    "description": "Starbucks ☕️ redesign using React, React-Router, Firebase, Redux, Material-UI, React-hook-forms (for simple form validation), and the Framer Motion API.",
+    "github": "https://github.com/alimehdiofficial/starbucks-clone",
+    "live": "https://starbucks-clone.web.app/",
+    "techStack": [
+      "React",
+      "Redux",
+      "Firebase",
+      "Framer Motion API",
+      "React Hook Form",
+      "Material-UI"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Google 2.0",
+    "description": "Google 2.0 ✨ with NextJS (SSR), TailwindCSS, and the Google API allowing users to search along with NextJS Pagination.",
+    "github": "https://github.com/alimehdiofficial/google-clone",
+    "live": "https://google-clone-alimehdiofficial.vercel.app/",
+    "techStack": ["NextJS", "TailwindCSS", "Google API", "Hero Icons"]
+  }
+]
