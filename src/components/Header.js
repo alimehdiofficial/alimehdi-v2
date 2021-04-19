@@ -42,20 +42,21 @@ const Container = styled.div`
   justify-content: space-between;
   align-items: center;
   padding: 40px 220px;
+  padding-bottom: 10px;
   height: ${(props) => (props.isTop ? "20px" : "80px")};
 
   @media (max-width: 1024px) {
-    padding: 60px 120px;
+    padding: 30px 120px;
   }
 
   @media (max-width: 786px) {
-    padding: 60px 30px;
+    padding: 30px 30px;
     padding-right: 40px;
   }
 
   @media (max-width: 425px) {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 `;
 

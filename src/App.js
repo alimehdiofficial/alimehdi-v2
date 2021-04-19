@@ -5,26 +5,29 @@ import HomeScreen from "./screens/HomeScreen";
 import ProjectScreen from "./screens/ProjectScreen";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <Router>
       <Header />
-      <Switch>
-        <Route path="/guestbook">
-          <Guestbook />
-          <Footer />
-        </Route>
+      <ScrollToTop>
+        <Switch>
+          <Route path="/guestbook">
+            <Guestbook />
+            <Footer />
+          </Route>
 
-        <Route path="/projects/:id">
-          <ProjectScreen />
-        </Route>
+          <Route path="/projects/:id">
+            <ProjectScreen />
+          </Route>
 
-        <Route path="/">
-          <HomeScreen />
-          <Footer />
-        </Route>
-      </Switch>
+          <Route path="/">
+            <HomeScreen />
+            <Footer />
+          </Route>
+        </Switch>
+      </ScrollToTop>
     </Router>
   );
 }

@@ -10,7 +10,6 @@ import LanguageIcon from "@material-ui/icons/Language";
 function ProjectScreen() {
   const [project, setProject] = useState({});
   const { id } = useParams();
-  // console.log(router.query);
 
   useEffect(() => {
     const data = projects.filter((projectData) => projectData.id === id);
